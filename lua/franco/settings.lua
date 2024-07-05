@@ -1,0 +1,20 @@
+local global = vim.g
+local o = vim.opt
+
+o.number = true
+o.relativenumber = true
+o.clipboard = "unnamedplus"
+o.syntax = "on"
+o.autoindent = true
+o.cursorline = true
+o.expandtab = true
+o.ruler = true
+o.title = true
+o.hidden = true
+o.ttimeoutlen = 0
+o.termguicolors = true
+o.splitbelow = true
+o.splitright = true
+o.showmatch = true
+o.shiftwidth = 2
+o.tabstop = 2
